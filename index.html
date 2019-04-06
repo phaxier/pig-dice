@@ -13,21 +13,44 @@
       <div class="jumbotron">
           <h1>Pig Dice</h1>
         </div>
+        <form>
+
+          <button type="submit" class="btn">Start</button>
+
         <div class="row">
           <div class="col-md-6">
             <div id="player1">
+
+
               <div class="form-group">
 
+                <label for="name1">Name</label>
+                <input id="name1" type="text" class="form-control"  placeholder="Player1">
               </div>
+              <div class="roll1">
+                <input type="submit" id="roll"  name="roll1" value="Roll">
 
+                            <br><br>
+              <button type="submit" id="hold1" class="btn">Hold</button>
               </div>
+              <p> Sub-Total = <span input= "rollResult"></span></p>
+            </div>
 
           </div>
+
         <div class="col-md-6">
           <div id="player2">
             <div class="form-group">
 
 
+              <label for="name2">Name</label>
+              <input id="name2" type="text" class="form-control" placeholder="Player2">
+
+            </div>
+            <div class="roll2">
+              <input type="submit" id="roll2"  name="roll2" value="Roll">
+            <br><br>
+            <button type="submit" id="hold2" class="btn">Hold</button>
             </div>
 
           </div>
@@ -35,6 +58,8 @@
         </div>
         </div>
 
+
+        </form>
     </div>
   </body>
 </html>
