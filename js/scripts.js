@@ -10,7 +10,7 @@ event.preventDefault();
 
 var result1 = Math.floor((Math.random()*6) +1);
 Result1.unshift(randomNumber);
-alert();
+        role:[]
 });
 if (randomNumber>1){
     randomNumber + 1;
