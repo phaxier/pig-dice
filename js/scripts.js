@@ -8,7 +8,7 @@ var result1 = [0];
 $("#roll").click(()=>{
 event.preventDefault();
 
-var result1 = Math.floor((Math.random()*6) +1);
+    var objectPlayer = {
         name: '',
         role:[]
 });
