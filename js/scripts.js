@@ -5,8 +5,6 @@ var rollResult3 = [];
 var rollResult4 = [];
 var result1 = [0];
 
-$("#roll").click(()=>{
-event.preventDefault();
 
     var objectPlayer = {
         name: '',
