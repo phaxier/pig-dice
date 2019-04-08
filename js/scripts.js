@@ -9,7 +9,7 @@ $("#roll").click(()=>{
 event.preventDefault();
 
 var result1 = Math.floor((Math.random()*6) +1);
-Result1.unshift(randomNumber);
+        name: '',
         role:[]
 });
 if (randomNumber>1){
